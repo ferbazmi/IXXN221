@@ -1,0 +1,164 @@
+body{
+    background-color: #FEFCF0;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.gif{
+    max-width: 80%; 
+    width: fit-content; 
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+
+}
+
+.title{
+    color: #F26849;
+    font-size: 50px;
+    font-weight: 700;
+    background-color: #FEFCF0;
+    width: stretch;
+}
+
+header{
+    min-height: 70vh;
+    background: url(https://media.giphy.com/media/3oFzm9D3ofutq98QIU/giphy.gif) center/ cover no-repeat fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+}
+
+#blog-posts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top:50px;
+}
+
+.blog-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.blog-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    flex-wrap: wrap;
+}
+
+.blog-box{
+    width: 350px;
+    background-color: #FEFCF0;
+    border: 1px solid #ececec;
+    margin: 20px;
+}
+
+.blog.img{
+    width: 100%;
+    height: auto;
+}
+.blog-img img{
+    width:100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.blog-text{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.blog-text span{
+    color: grey;
+}
+
+.headingw3{
+    background-color: #F26849;
+    width: 120px;
+    height: 20px;
+}
+
+img{
+    background-color: azure;
+    padding: 10px;
+    border: 5px solid grey;
+    border-radius: 10px;
+    align-items: center;
+    margin: 30px;
+}
+
+img:hover {
+    border: 10px dashed rgb(220, 247, 255);
+}
+
+.g{
+    background-color: bisque;
+}
+
+a:link {
+    color: #F26849;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: #F26849;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #3a2420;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:active {
+    color: #F26849;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  h3{
+    font-family: garamond;
+    font-weight: bold;
+    color:#63BBF2 ;
+ }
+ 
+ h4{
+     font-family:garamond;
+     color:#63BF71 ;
+ }
+
+ .buttonrow{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.button{
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 15px;
+    color: #63BF71;
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    margin: 10px 30px;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: black;
+    border: 2px solid black;
+    color: #63BF71;
+}
